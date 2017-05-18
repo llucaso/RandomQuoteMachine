@@ -1,7 +1,7 @@
 ﻿
 
 var tweetLink = "https://twitter.com/intent/tweet?text=";														//wysylanie tweetow -brakuje koncowki
-var quoteUrl = "http://api.forismatic.com/api/1.0/?method=getQuote&key=867576&format=jsonp&lang=en&jsonp=?";	//odbieranie cytatow
+var quoteUrl = "https://api.forismatic.com/api/1.0/?method=getQuote&key=867576&format=jsonp&lang=en&jsonp=?";	//odbieranie cytatow
 
 function getQuote() {
 	$.getJSON(quoteUrl, createTweet);
